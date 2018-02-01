@@ -4,7 +4,7 @@
   "main": "index.js",
   "author": "atmaram-qb",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "clean": "rimraf ./dist",
     "dev": "npm run clean && webpack-dev-server --progress --profile --colors --config ./config/webpack/webpack.config.dev.js",
