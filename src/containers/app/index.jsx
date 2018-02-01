@@ -26,6 +26,7 @@ class App extends Component {
             <section className="search-section">
                 <input
                     type="text"
+                    placeholder="Search..."
                     value={ this.state.inputText }
                     onChange={ this.handleSearchInputChange } />
                 

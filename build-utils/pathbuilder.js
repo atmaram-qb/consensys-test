@@ -10,7 +10,6 @@ function buildAliasConfig() {
         "./src/actions/",
         "./src/constants/",
         "./src/services/",
-        "./src/utils/",
         "./src/styles/"
     ];
 

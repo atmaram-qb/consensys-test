@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 
-import Router from '@RootRouter';
+import App from '@AppContainer';
 
 import configStore from '@ReduxStore';
 
@@ -16,7 +16,7 @@ const reactRoot = document.getElementById('react-app');
 ReactDOM.render(
     (
         <Provider store={ store }>
-            <Router />
+            <App />
         </Provider>
     ),
     reactRoot

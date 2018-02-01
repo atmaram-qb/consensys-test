@@ -36,6 +36,12 @@ $video-section-margin: 10px;
         height: calc(100% - #{ $search-section-height + $video-section-margin });
         overflow: hidden;
 
+        .video-detail-wrapper,
+        .video-list-wrapper {
+            height: 100%;
+            overflow: hidden;
+        }
+
         .video-list-wrapper {
             width: 30%;
             float: left;
