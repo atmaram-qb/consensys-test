@@ -1,0 +1,39 @@
+.csys-video-detail {
+    .detail-section {
+        margin-top: 10px;
+
+        h2, p, ul {
+            margin-top: 5px;
+        }
+
+        .extra-descriptions {
+            list-style: none;
+        }
+
+        li {
+            display: block;
+            height: auto;
+            overflow: auto;
+
+            &:nth-of-type(1) {
+                margin-bottom: 5px;
+            }
+        }
+
+        .description {
+            &-label,
+            &-field {
+                float: left;
+            }
+
+            &-label {
+                margin-right: 5px;
+                font-weight: 500;
+            }
+
+            &-field {
+                color: #333;
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+'use strict';
+
+export const SEARCH_VIDEOS = 'SEARCH_VIDEOS';
+export const UPDATE_VIDEOS_LIST = 'UPDATE_VIDEOS_LIST';
+export const UPDATE_ACTIVE_VIDEO_ID = 'UPDATE_ACTIVE_VIDEO_ID';
+export const SHOW_LOADER = 'SHOW_LOADER';
+export const HIDE_LOADER = 'HIDE_LOADER';
