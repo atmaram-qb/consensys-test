@@ -1,4 +1,4 @@
-##Consensys Test
+# Consensys Test
 
 The app uses React, Redux and Saga to list few video suggestions from YouTube. It also displays the video detail of the selected video.
 
